@@ -1,0 +1,45 @@
+html {
+  background-color: rgb(169, 169, 169);
+}
+
+p {
+  color: coral;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.bg {
+  background-color: lightgreen;
+  background-image: url("./images/cat-baby.png");
+  background-position: center;
+}
+
+.bg-image {
+  width: 504px;
+  height: 504px;
+}
+
+.bg-repeat {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 504px;
+}
+
+.bg-size-cover {
+  background-size: cover;
+  background-position: center;
+  /* width: 504px; */
+  height: 240px;
+}
+
+.bg-fixed {
+  background-image: url("./images/chipi-chipi.gif");
+  background-attachment: fixed;
+  height: 540px;
+}
+
+.bg-position {
+  height: 540px;
+
+  background: black url("./images/cat-baby.png") no-repeat right top;
+}
